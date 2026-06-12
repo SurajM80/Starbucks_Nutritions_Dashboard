@@ -208,7 +208,7 @@ dim_beverage ── fact_nutrition ── dim_prep
 A dedicated database was created:
 
 ```sql
-CREATE DATABASE starbucks_dw;
+CREATE DATABASE starbucks;
 ```
 
 The Star Schema was loaded into MySQL and used as the primary data source for Power BI.
@@ -262,17 +262,6 @@ Through this project, I gained practical experience in:
 - Data Visualization
 - KPI Reporting
 - Interactive Analytics
-
----
-
-# 🚀 Future Improvements
-
-- API Integration for Real-Time Data
-- Automated ETL Scheduling
-- Incremental Data Loading
-- Cloud Data Warehouse Integration
-- Apache Airflow Pipeline Orchestration
-- Advanced Nutritional Analytics
 
 ---
 
